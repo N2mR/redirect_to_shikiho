@@ -1,0 +1,9 @@
+{
+  "name": "redirect to shikiho",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "redirect_to_shikiho.js"
+  }
+}
